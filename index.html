@@ -17,6 +17,15 @@
 	<link rel="shortcut icon" href="images/icon2.png" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("p#smart").hide();
+            $("#smart_control").click(function(){
+                $("p#smart").toggle(1000);
+            });
+        });
+    </script>
 </head>
 <body>
 	<div class='preloader'><div class='loaded'>&nbsp;</div></div>	
@@ -238,6 +247,16 @@
 					</div>
 				</div>
 				<div class="row">
+                    <div class="col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<div class="caption">
+								<h4 class="description-heading">Smart Toilet for Elderly people and patients</h4>
+                                <br/>
+                                <p>A semi automated toilet that is designed for the elderly people and the patients. This toilet helps them defecate and urinate with ease and reduces the filthy labour for the hospital authorities. The use of embedded microcontroller Arduino Mega 2560 makes the system smart. </p><p id="smart"> The design basically works with one switch condition; where the patient has to switch ON the system, then a bad gap opens for him at the right position. He/She then defecates/urinates with ease. Further, there will be automated water supply for cleaning and flush purpose. And after all the processes, the user has to switch it OFF. <br/><br/><b> The project was considered as fourth position in National Level Competition in India International Science Festival, 2017 which was held in Chennai.</b></p>
+								<input type="button" value="Show Less/More" id="smart_control" />
+							</div>
+						</div>
+					</div>
 					<div class="col-sm-6 col-md-4">
 						<div class="thumbnail">
 							<div class="caption">
@@ -266,16 +285,7 @@
 								
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<div class="caption">
-								<h4 class="description-heading">Overcharging Protecton System</h4>
-                                <br/>
-								<p>Due to the over discharging and over charging, the life of a battery is affected and cost the end user needlessly. The improper handling of batteries shorten their life and may even lead to explosion. In this project, a power circuit is designed which will detect the upper limit of the terminal voltage by the use of a suitable Zener diode and will cut off the battery connection with the load device by the use of a relay</p>
-							</div>
-						</div>
-					</div>
+                    </div>
 				</div>
 				<div class="row">
 					<div class="col-sm-6 col-md-4">
@@ -315,6 +325,7 @@
 							</div>
 						</div>
 					</div>
+                    
 				</div>
 				<div class="col-md-4">
 				</div>
