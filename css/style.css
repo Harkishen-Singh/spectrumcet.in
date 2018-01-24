@@ -26,6 +26,7 @@
 .suggestion{
     
     margin-left: 10%;
+    margin-right: 20%;
     
 }
 .al{
@@ -75,6 +76,7 @@
 .wing{
     padding-top: 20px;
     font-size: 15px;
+    color: #2D4699;
 }
 .radi{
      width: 0px;
@@ -562,7 +564,7 @@ a:hover{
 }
 .single_abouts p{
     font-size: 15px;
-    font-family: 'Impact';
+    /*font-family: 'Impact';*/
 }
 
 
