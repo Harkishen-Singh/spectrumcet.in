@@ -56,17 +56,14 @@
 }
 
 .yo2{
-    padding:50px 10px 20px 100px;
-     text-align: justify;
+    
+     text-align: center;
 }
 .yo3{
-    padding-right: 10px;
-    padding-left: 160px;
+    text-align: left;
 }
 .yo4{
-    padding-right: 10px;
-    padding-left: 100px;
-    padding-bottom: 100px;
+    text-align: center;
 }
 .yo{
     color: black;
@@ -91,7 +88,6 @@
 }
 .founder_pic{
     height: 500px;
-  
     padding-left: 80px;
     padding-top: 100px;
     
@@ -475,11 +471,11 @@ a:hover{
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-color: #2D4699;
-	height:80px;
+	height:55px;
 	
 }
 .container-fluid {
-    margin-top: 15px;
+    margin-top: 2px;
 }
 
 .main_menu_bg{
@@ -493,7 +489,7 @@ a:hover{
 .navbar-default .navbar-nav>li>a {
     color: white;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 	color: #2D4699;
@@ -1191,9 +1187,9 @@ color: #2D4699;
 }
 
 .main_footer p{
-	padding:20px 0px;
+	padding:5px 0px;
 	color:#fff;
-	margin-top:10px;
+	margin-top:5px;
 }
 .main_footer p i{
 	padding:0px 10px;
