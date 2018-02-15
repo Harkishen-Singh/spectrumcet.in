@@ -520,8 +520,9 @@ a:hover{
 /* Banner section */
 
 .banner{
-	background:url(../images/picture_new3_optimized.jpg) no-repeat;
+	background:url(../images/picture_new3_optimized2.jpg) no-repeat;
 	position:relative;
+    height: 60%;
 	background-size:cover;
 }
 
